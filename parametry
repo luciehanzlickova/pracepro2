@@ -1,0 +1,27 @@
+# ukol 1
+def nasob_pet(cislo):
+   vysledek = cislo * 5
+   print(vysledek)
+nasob_pet(3)
+
+# ukol 2 
+def vypis_prvni_prvek(pole):
+   if len(pole) > 0:
+       print(pole[0])
+   else:
+       print("Pole je prázdné")
+vypis_prvni_prvek([10, 20, 30])
+
+# ukol 3 
+def secti_dve_cisla(a, b):
+   soucet = a + b
+   print(soucet)
+pocet = int(input("Zadej první číslo: "))
+druhe = 7
+secti_dve_cisla(pocet, druhe)
+
+# ukol 4
+def fiktivni_postava(jmeno, popis, vek):
+   print(f"Nová postava vytvořena, jmenuje se {jmeno}, je to {popis} a je jí {vek} let.")
+fiktivni_postava("Anna", "bojovnice", 28)
+fiktivni_postava("Lukáš", "mág", 34)
