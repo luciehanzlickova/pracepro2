@@ -2,7 +2,7 @@
 def nasob_pet(cislo):
    vysledek = cislo * 5
    print(vysledek)
-nasob_pet(3)
+nasob_pet(5)
 
 # ukol 2 
 def vypis_prvni_prvek(pole):
